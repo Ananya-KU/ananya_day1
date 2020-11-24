@@ -61,3 +61,5 @@ print(int(b))
 #output
 120.0
 390
+#Task2 completed
+#Thank you
