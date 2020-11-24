@@ -36,3 +36,28 @@ thirty days and thirty hours
 estEnlist
 #Task1 completed
 #Thank you
+
+#Day2
+a=20
+b=10
+c=30
+print(a/10)
+print(b*50)
+print(c+60)
+#output
+2.0
+500
+90
+
+str = "world"
+print (str.replace("r", "g"))
+#output
+wogld
+
+a = 120
+b = 390.8
+print(float(a))
+print(int(b))
+#output
+120.0
+390
