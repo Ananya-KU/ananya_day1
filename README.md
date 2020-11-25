@@ -64,3 +64,55 @@ print(int(b))
 390
 #Task2 completed
 #Thank you
+
+#Day 3
+#initializing the dictionaries
+fruits = {"grapes": 2, "orange" : 3, "mango": 5}
+vegetables = {"onion": 3, "tomato": 4, "potato": 6}
+#updating the fruits dictionary
+fruits.update(vegetables)
+#printing the fruits dictionary
+#it contains both the key: value pairs
+print(fruits)
+{'grapes': 2, 'orange': 3, 'mango': 5, 'onion': 3, 'tomato': 4, 'potato': 6}
+
+
+myDict = {'a':10,'b':20,'c':30,'d':40}
+print(myDict)
+if 'a' in myDict: 
+    del myDict['a']
+print(myDict)
+{'a': 10, 'b': 20, 'c': 30, 'd': 40}
+{'b': 20, 'c': 30, 'd': 40}
+
+keys = ['red', 'green', 'blue']
+values = ['#FF0000','#008000', '#0000FF']
+color_dictionary = dict(zip(keys, values))
+print(color_dictionary)
+{'red': '#FF0000', 'green': '#008000', 'blue': '#0000FF'}
+
+#Creating a set
+seta = set([5, 10, 3, 15, 2, 20])
+#To find the length use len()
+print(len(seta))
+6
+
+sn1 = {1,2,3,4,5}
+sn2 = {4,5,6,7,8}
+print("Original sets:")
+print(sn1)
+print(sn2)
+print("Remove the intersection of a 2nd set from the 1st set using difference_update():")
+sn1.difference_update(sn2)
+print(sn1)
+sn1 = {1,2,3,4,5}
+sn2 = {4,5,6,7,8}
+print("Remove the intersection of a 2nd set from the 1st set using -= operator:")
+print(sn1-sn2)
+Original sets:
+{1, 2, 3, 4, 5}
+{4, 5, 6, 7, 8}
+Remove the intersection of a 2nd set from the 1st set using difference_update():
+{1, 2, 3}
+Remove the intersection of a 2nd set from the 1st set using -= operator:
+{1, 2, 3}
