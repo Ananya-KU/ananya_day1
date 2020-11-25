@@ -116,3 +116,5 @@ Remove the intersection of a 2nd set from the 1st set using difference_update():
 {1, 2, 3}
 Remove the intersection of a 2nd set from the 1st set using -= operator:
 {1, 2, 3}
+#Task3 Completed
+#Thank you
