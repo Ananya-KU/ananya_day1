@@ -38,16 +38,17 @@ estEnlist
 #Thank you
 
 #Day2
+
 a=20
-b=10
-c=30
+b=20
+c=20
 print(a/10)
 print(b*50)
 print(c+60)
 #output
 2.0
-500
-90
+100
+80
 
 str = "world"
 print (str.replace("r", "g"))
