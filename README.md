@@ -119,3 +119,49 @@ Remove the intersection of a 2nd set from the 1st set using -= operator:
 {1, 2, 3}
 #Task3 Completed
 #Thank you
+
+#Day4
+def work_insert(work):
+    a = int(input("enter no to insert into list"))
+    work.append(a)
+    print(work)
+    return
+
+
+def work_delete(work):
+    a = int(input("enter no to delete in list"))
+    work.remove(a)
+    print(work)
+    return
+
+work =[45,56,78,99,90]
+work_insert(work)
+work_delete(work)
+minimum = min(work)
+maximum = max(work)
+print(minimum)
+print(maximum)
+#output 
+10
+45
+enter no to insert into list[45,56,78,99,90,10]
+enter no to delete in list[56,78,99,90,10]
+10
+99
+
+def Reverse(tuples): 
+    new_tup = () 
+   for k in reversed(tuples): 
+        new_tup = new_tup + (k,) 
+   print new_tup
+
+tuples = (10, 11, 12, 13, 14, 15) 
+Reverse(tuples) 
+#Output
+(15, 14, 13, 12, 11, 10)
+
+k=(10,20,30,40,50)
+y=list(k)
+print(type(y))
+#output
+<class 'list'>
