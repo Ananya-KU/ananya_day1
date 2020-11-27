@@ -165,3 +165,45 @@ y=list(k)
 print(type(y))
 #output
 <class 'list'>
+ 
+#Day 5
+def addition(x,y):
+    print("addition of two numbers",(x+y))
+def subtraction(x,y):
+    print("subtraction of two numbers",(x-y))
+
+def multiplication(x,y):
+    print("multiplication of two numbers",(x*y))
+def division(x,y):
+    print("division of two numbers",(x/y))
+
+x= int(input("enter the value of x"))
+y= int(input("\nenter the value of y\n"))
+addition(x,y)
+subtraction(x,y)
+division(x,y)
+multiplication(x,y)
+#Output 
+enter value of x
+enter value of y
+addition of two numbers 30
+subtraction of two numbers 10
+division of two numbers 2.0
+multiplication of two numbers 200
+
+
+def covid(patient_name,body_temp=98):    
+    patient_details={‘patient_name’:name,’body_temp’:body_temperature}
+    print(patient_details)
+    
+patient_name=input(‘enter the patient name\n’)
+body_temperature=int(input(‘enter the patient body temperature’))
+covid(patient_name, temperature)
+#Output
+enter the patient name 
+Ashish
+enter the body temperature98
+{'patient_name': 'Ashish','body_temp': 98}
+#Task5 completed
+#Thank You
+
