@@ -38,12 +38,6 @@ estEnlist
 #Task1 completed
 #Thank you
 
-
-str = "world"
-print (str.replace("r", "g"))
-#output
-wogld
-
 a = 120
 b = 390.8
 print(float(a))
