@@ -38,18 +38,6 @@ estEnlist
 #Task1 completed
 #Thank you
 
-#Day2
-
-a=20
-b=20
-c=20
-print(a/10)
-print(b*50)
-print(c+60)
-#output
-2.0
-100
-80
 
 str = "world"
 print (str.replace("r", "g"))
