@@ -38,16 +38,6 @@ estEnlist
 #Task1 completed
 #Thank you
 
-a = 120
-b = 390.8
-print(float(a))
-print(int(b))
-#output
-120.0
-390
-#Task2 completed
-#Thank you
-
 #Day 3
 #initializing the dictionaries
 fruits = {"grapes": 2, "orange" : 3, "mango": 5}
